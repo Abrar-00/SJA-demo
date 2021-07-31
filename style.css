@@ -61,6 +61,12 @@ body {
   border-left: 15px solid green;
   border-right: 15px solid green;
   animation: ambu 2s ease-in;
+  overflow: hidden;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 #navbar-main a {
   margin: 0 0.7rem;
@@ -109,7 +115,9 @@ body {
 .carousel {
   margin: 0rem 5rem;
 }
-
+.mar-set{
+  margin-right: 200px;
+}
 /* carousel contant */
 
 /* second slide */
@@ -157,6 +165,14 @@ body {
   color: white;
   box-shadow: 6px 6px 5px grey;
   background-color: green;
+  box-shadow: inset 0 0 0 0 #f9e506;
+  transition: ease-out 0.9s;
+  text-align: center;
+}
+#covid-btn:hover{
+    box-shadow: inset 150px 0 0 0 #f9e506;
+    font-weight: bolder;
+    color: black;
 }
 
 /* ambulance and covid heading and paragraph part */
