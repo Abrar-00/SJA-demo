@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.n-strip {
+  background-color: rgb(255, 173, 22);
+  height: 0.2rem;
+}
+/* navbar-top */
+
+#navbar-up {
+  height: 2.5rem;
+  background-color: white;
+  animation: top-nav 2s ease-in;
+}
+#navbar-up a {
+  margin: 0rem 0.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#navbar-up a:hover {
+  color: green;
+}
+.SM-icons {
+  margin: 0.6rem 0rem;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-facebook-f {
+  color: rgb(76, 76, 194);
+}
+.fa-instagram {
+  color: rgb(204, 29, 96);
+}
+.SM-donate {
+  margin: 0.2rem 0rem;
+  margin-left: 37rem;
+}
+#donate-now {
+  margin: 0rem 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#donate-now:hover {
+  background-color: rgb(255, 173, 22);
+  color: white;
+}
+
+/* main navbar */
+
+#navbar-main {
+  margin: 0rem 7rem;
+  background-color: white;
+  border-bottom: 0px solid rgb(255, 173, 22);
+  border-left: 15px solid green;
+  border-right: 15px solid green;
+  animation: ambu 2s ease-in;
+}
+#navbar-main a {
+  margin: 0 0.7rem;
+  display: inline;
+}
+#logo {
+  width: 5rem;
+}
+.nav-item {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* drop down list */
+
+.dropdown-menu {
+  width: 11rem;
+  border: solid 1px rgb(255, 173, 22);
+  box-shadow: 3px 10px 7px 0px #dbd9d9;
+}
+.dropdown-item {
+  color: black;
+  font-size: 0.9rem;
+  background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* header */
+
+.header-img {
+  display: flex;
+  margin: 0rem 1rem;
+}
+
+/* carousal  */
+
+#carouselExampleFade {
+  width: 120.8%;
+  height: 29em;
+  margin-left: -7.2rem;
+  background-color: white;
+  border-radius: 110px 110px 110px 110px;
+  border: 4px solid rgb(255, 173, 22);
+}
+.carousel {
+  margin: 0rem 5rem;
+}
+
+/* carousel contant */
+
+/* second slide */
+
+.contant-1 {
+  margin: 5rem 0rem;
+  padding: 0rem 8rem;
+  animation: AFI 1s ease-in;
+}
+.contant-1 h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: left;
+}
+#st-logo {
+  padding: 0rem -4rem;
+}
+
+/* pakistan map img */
+
+#pak-img {
+  margin: 1rem 0rem;
+  animation: Pak 1s ease-in;
+}
+
+/* ambulance img */
+
+#ambu-img {
+  margin: 1rem 0rem;
+  animation: ambu 1s ease-in;
+}
+
+/* covid btn & covid svg */
+
+#covid-img {
+  margin-right: 5rem;
+  width: 490px;
+  margin-top: -2rem;
+  animation: covid 1s ease-in;
+  border-radius: 50%;
+}
+#covid-btn {
+  font-weight: bold;
+  color: white;
+  box-shadow: 6px 6px 5px grey;
+  background-color: green;
+}
+
+/* ambulance and covid heading and paragraph part */
+
+/* first slide  */
+
+.contant-2 {
+  margin: 5rem 0rem;
+  padding: 0rem 10rem;
+  animation: cont 1s ease-in;
+}
+.contant-2 h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.2rem;
+  font-weight: 1000;
+  text-align: center;
+  color: rgb(255, 173, 22);
+  text-shadow: 2px 2px 3px #000000;
+}
+.span-h4 {
+  color: gray;
+}
+
+.contant-2 p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* 3rd slide */
+
+.contant-3 {
+  margin: 5rem 0rem;
+  padding: 0rem 10rem;
+  animation: cont 1s ease-in;
+}
+.contant-3 h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.2rem;
+  font-weight: 1000;
+  text-align: center;
+  color: rgb(255, 173, 22);
+  text-shadow: 2px 2px 3px #000000;
+}
+
+/* our service part */
+
+/* .our-service {
+  background-image: url(./img/ian-taylor-4hWvAJP8ofM-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
+} */
+.our-service {
+  background-image: url(./img/mevagissey-cornwall-england-june-26-260nw-1439310038.jpg);
+  background-size: cover;
+  width: 90%;
+  height: 29rem;
+  margin: 2rem 4rem;
+}
+.card {
+  margin: 2rem 4.3rem;
+  padding: 0.5rem 0.5rem;
+  box-shadow: 4px 6px 4px 0px #dbd9d9;
+}
+.icon {
+  font-size: 5rem;
+  padding: 3rem 5rem;
+  background-color: rgb(255, 173, 22);
+  border-radius: 50%;
+}
+.card-body p {
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.card-btn {
+  font-size: 0.8rem;
+  background-color: green;
+  color: white;
+}
+
+/* animation part */
+
+@keyframes Pak {
+  0% {
+    transform: translatey(-500px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+@keyframes AFI {
+  0% {
+    transform: translatey(500px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+@keyframes cont {
+  0% {
+    transform: translatex(500px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+@keyframes ambu {
+  0% {
+    transform: translatey(400px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+@keyframes top-nav {
+  0% {
+    transform: translatey(-500px);
+  }
+  100% {
+    transform: translatey(5px);
+  }
+}
+@keyframes covid {
+  0% {
+    transform: translatey(500px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

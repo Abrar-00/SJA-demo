@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- navbar stop top social media part -->
+    <div class="n-strip"></div>
+    <nav id="navbar-up" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">REGISTER</a>
+            <a class="nav-link" href="#">LOG IN</a>
+            <div class="SM-icons">
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="SM-donate">
+              <a href=""><i class="fas fa-shopping-basket"></i></a>
+              <div id="donate-now" class="btn btn">Donate Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="n-strip"></div>
+
+    <!-- second part of nav-bar -->
+
+    <nav id="navbar-main" class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img id="logo" src="./img/st.john.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Who we are</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li><a class="dropdown-item" href="#">Annual Reports</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Training Courses
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Course List</a></li>
+                <li><a class="dropdown-item" href="#">Payment Method</a></li>
+                <li><a class="dropdown-item" href="#">Course Schedule</a></li>
+                <li><a class="dropdown-item" href="#">Special Notice</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Support St.John
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Donation</a></li>
+                <li><a class="dropdown-item" href="#">Volunteers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                News & Events
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">News</a></li>
+                <li><a class="dropdown-item" href="#">St.john Events</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Our Service</a></li>
+                <li><a class="dropdown-item" href="#">Service Request</a></li>
+              </ul>
+              <a class="nav-link" aria-current="page" href="#">FAQ</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact Us
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Contact info</a></li>
+                <li><a class="dropdown-item" href="#">Our Location</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <!-- <div class="n-strip"></div> -->
+    <div class="container">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- first slide -->
+          <div class="carousel-item active">
+            <div class="header-img">
+              <div class="contant-2">
+                <!-- <img src="./img/st.john.png" alt="" /> -->
+                <h4>
+                  APPLY FOR <br />
+                  FIRST AID SERVICE <br />
+                  <span class="span-h4">IN CORPOPRATE EVENTS</span>
+                </h4>
+                <button id="covid-btn" type="button" class="btn btn-warning">
+                  APPLY HERE
+                </button>
+              </div>
+
+              <img
+                id="ambu-img"
+                src="./img/uploads_ambulance_ambulance_PNG49.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- second slide but its contant name in contant-1 -->
+          <div class="carousel-item">
+            <div class="header-img">
+              <div class="contant-1">
+                <img id="st-logo" src="./img/st.john.png" alt="" />
+                <h4>
+                  The St.john Ambulance <br />
+                  Association Of Pakistan
+                </h4>
+              </div>
+              <!-- <img id="pak-img" src="./img/st.john.png" alt="" /> -->
+              <div class="contant-2">
+                <!-- <img src="./img/st.john.png" alt="" /> -->
+                <h4>ABOUT US</h4>
+                <p>
+                  St John Ambulance is a modern and dynamic charity, but we are
+                  privileged to have a long and diverse heritage underpinning
+                  our vital work. We have been providing first aid and first aid
+                  training for over 140 years. However, our enduring story goes
+                  all the way back to 11th century Jerusalem where the first
+                  Knights of St John set up a hospital to provide free medical
+                  care to sick pilgrims.
+                </p>
+                <button id="covid-btn" type="button" class="btn btn-warning">
+                  Learn More
+                </button>
+              </div>
+            </div>
+            <!-- <div class="header-img">
+              <div class="contant">
+                <img src="./img/st.john.png" alt="" />
+                <h4>
+                  The St.john Ambulance <br />
+                  Association Of Pakistan
+                </h4>
+              </div>
+
+              <img id="pak-img" src="./img/unnamed.jpg" alt="" />
+            </div> -->
+          </div>
+          <!-- third slide -->
+          <div class="carousel-item">
+            <div class="header-img">
+              <div class="contant-3">
+                <!-- <img src="./img/st.john.png" alt="" /> -->
+                <h4>
+                  COVID-19 <br />
+                  INFORMATION
+                </h4>
+                <p>
+                  SJAP ambulances were activated in Johor. Our fellow officers
+                  and members nationwide made DIY face shields for hospitals and
+                  clinics. Infographics are created for public education.
+                </p>
+                <button id="covid-btn" type="button" class="btn btn-warning">
+                  Learn More
+                </button>
+              </div>
+              <img id="covid-img" src="./img/21378-3d-covid-19.gif" alt="" />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <br />
+    <!-- after carousel part -->
+    <!-- <div class="n-strip"></div> -->
+    <div class="our-service">
+      <img id="blur-img" src="" alt="" />
+      <div class="row">
+        <div class="card" style="width: 17rem">
+          <div class="icon"><i class="fas fa-first-aid"></i></div>
+          <!-- <img src="" class="card-img-top" alt="..." /> -->
+          <div class="card-body">
+            <h5 class="card-title">First aid training</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn card-btn">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 17rem">
+          <div class="icon"><i class="fas fa-ambulance"></i></div>
+          <!-- <img src="..." class="card-img-top" alt="..." /> -->
+          <div class="card-body">
+            <h5 class="card-title">Emergency response</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn card-btn">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 17rem">
+          <div class="icon"><i class="fas fa-user"></i></div>
+          <!-- <img src="..." class="card-img-top" alt="..." /> -->
+          <div class="card-body">
+            <h5 class="card-title">Volunteer programmes</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn card-btn">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="./main.js"></script>
+  </body>
+</html>
