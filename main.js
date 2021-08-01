@@ -9,5 +9,3 @@ function Navfunction(){
         navbar.classList.remove("sticky")
     }
 }
-console.log("Sdf")
-alert("Sd")
