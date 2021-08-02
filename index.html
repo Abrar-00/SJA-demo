@@ -4,7 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <!-- js animation link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -23,7 +24,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Hello, world!</title>
   </head>
-  <body style="background-color: white;">
+  <body style="background-color: white; overflow-x: hidden;">
     <!-- navbar stop top social media part -->
     <div class="n-strip"></div>
     <nav id="navbar-up" class="navbar navbar-expand-lg">
@@ -326,7 +327,7 @@
     <div class="top-heading" style="width: 90%; margin: auto;font-weight: bolder;">
       <h2>What We Do</h2>
     </div>
-    <div class="over-services">
+    <div class="over-services" data-aos="fade-left">
       <div class="bot-services">
         <div class="row service-part1">
           <div class="col-md-3 service1">
@@ -364,7 +365,7 @@
           </div>
           </div>
         </div>
-        <div class="row service-part1">
+        <div class="row service-part1" data-aos="fade-right">
         <div class="col-md-3 service1">
           <br><br>
           <div class="icon1"><i class="fas fa-medkit"></i></div>
@@ -391,7 +392,9 @@
       </div>
     </div>
     
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/animi.js"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
