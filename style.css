@@ -150,7 +150,7 @@ body {
 /* ambulance img */
 
 #ambu-img {
-  margin: 1rem 0rem;
+  display: flex;
   animation: ambu 1s ease-in;
 }
 
