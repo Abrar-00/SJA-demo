@@ -1,3 +1,4 @@
+  
 * {
   padding: 0;
   margin: 0;
@@ -264,6 +265,10 @@ body {
 }
 .content1 {
   color: white;
+}
+
+.service1:hover .content1 {
+  color: black;
 }
 
 .icon1 {
