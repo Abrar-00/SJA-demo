@@ -16,6 +16,7 @@ body {
   height: 2.5rem;
   background-color: white;
   animation: top-nav 2s ease-in;
+  z-index: -1;
 }
 #navbar-up a {
   margin: 0rem 0.5rem;
@@ -63,10 +64,10 @@ body {
   animation: ambu 2s ease-in;
   overflow: hidden;
 }
-.sticky{
+.sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  /* width: 100%; */
 }
 #navbar-main a {
   margin: 0 0.7rem;
@@ -98,7 +99,7 @@ body {
 /* header */
 
 .header-img {
-  display: flex;
+  display: flexbox;
   margin: 0rem 1rem;
 }
 
@@ -114,7 +115,7 @@ body {
 .carousel {
   margin: 0rem 5rem;
 }
-.mar-set{
+.mar-set {
   display: grid;
   place-items: center;
 }
@@ -169,10 +170,10 @@ body {
   transition: ease-out 0.9s;
   text-align: center;
 }
-#covid-btn:hover{
-    box-shadow: inset 150px 0 0 0 #f9e506;
-    font-weight: bolder;
-    color: black;
+#covid-btn:hover {
+  box-shadow: inset 150px 0 0 0 #f9e506;
+  font-weight: bolder;
+  color: black;
 }
 
 /* ambulance and covid heading and paragraph part */
@@ -233,31 +234,30 @@ body {
   background-color: white;
   border-top: 4px solid rgb(255, 173, 22);
 }
-.service-part1{
+.service-part1 {
   margin-top: 50px;
   display: flex;
   width: 95%;
   justify-content: space-evenly;
   text-align: center;
 }
-.service1{
+.service1 {
   height: 40vh;
   border: 2px solid yellow;
   box-shadow: inset 0 0 0 0 #ffc300;
   transition: ease-out 0.7s;
 }
-.service1:hover{
-    box-shadow: inset 0px 165px 0px 165px #ffd60a;
-    color: black;
+.service1:hover {
+  box-shadow: inset 0px 165px 0px 165px #ffd60a;
+  color: black;
 }
-.icon1{
+.icon1 {
   font-size: 3rem;
   color: #ffc300;
 }
-.service1:hover .icon1{
+.service1:hover .icon1 {
   color: white;
 }
-
 
 /* animation part */
 
@@ -287,7 +287,7 @@ body {
 }
 @keyframes ambu {
   0% {
-    transform: translatey(400px);
+    transform: translatey(-300px);
   }
   100% {
     transform: translatey(0px);
