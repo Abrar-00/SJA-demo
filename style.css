@@ -243,19 +243,8 @@ body {
   justify-content: space-evenly;
   text-align: center;
 }
-<<<<<<< HEAD
-.service-part1 h2{
-  font-size: 2rem;
-}
-.service-part1 p{
-  font-size: 1rem;
-}
-.service1{
-  height: 20em;
-=======
 .service1 {
   height: 40vh;
->>>>>>> ef16430ccfbc2bae3441120c29f916ee4526f4c6
   border: 2px solid yellow;
   box-shadow: inset 0 0 0 0 #ffc300;
   transition: ease-out 0.7s;
