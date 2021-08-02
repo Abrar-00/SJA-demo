@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  background-image: url(./img/maxime-dore-aFkpjF5Z3Ek-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-color: white; */
 }
 .n-strip {
   background-color: rgb(255, 173, 22);
@@ -16,7 +19,7 @@ body {
   height: 2.5rem;
   background-color: white;
   animation: top-nav 2s ease-in;
-  z-index: -1;
+  opacity: 89%;
 }
 #navbar-up a {
   margin: 0rem 0.5rem;
@@ -63,6 +66,7 @@ body {
   border-right: 15px solid green;
   animation: ambu 2s ease-in;
   overflow: hidden;
+  opacity: 89%;
 }
 .sticky {
   position: fixed;
@@ -115,6 +119,7 @@ body {
   border: 4px solid rgb(255, 173, 22);
 }
 .carousel {
+  opacity: 89%;
   margin: 0rem 5rem;
 }
 .mar-set {
@@ -237,6 +242,7 @@ body {
   background-color: white;
   border-top: 4px solid rgb(255, 173, 22);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: transparent;
 }
 .service-part1 {
   margin-top: 50px;
@@ -247,29 +253,30 @@ body {
 }
 .service1 {
   height: 40vh;
-  border: 2px solid yellow;
-  box-shadow: inset 0 0 0 0 #ffc300;
-  transition: ease-out 0.7s;
+  border: 4px solid gray;
+  box-shadow: inset 0 0 0 5 #ffc300;
+  transition: ease-out 0.5s;
   border-radius: 15%;
 }
 .service1:hover {
   box-shadow: inset 0px 165px 0px 165px #ffd60a;
   color: black;
 }
-.content_L {
-  margin: -0.5rem 0rem;
+.content1 {
+  color: white;
 }
+
 .icon1 {
   font-size: 3rem;
   color: #ffc300;
 }
 .service1:hover .icon1 {
-  color: white;
+  color: black;
 }
 .afterservice {
   width: 100%;
   height: 30rem;
-  background-color: green;
+  /* background-color: green; */
 }
 
 /* animation part */
