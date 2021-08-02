@@ -106,8 +106,8 @@ body {
 /* carousal  */
 
 #carouselExampleFade {
-  width: 120.8%;
-  margin: 0rem -7.2rem;
+  width: 98%;
+  margin: 0rem;
   padding: 0rem;
   height: 29rem;
   background-color: white;
@@ -118,7 +118,7 @@ body {
   margin: 0rem 5rem;
 }
 .mar-set {
-  display: block;
+  display: grid;
   place-items: center;
 }
 /* carousel contant */
