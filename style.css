@@ -99,15 +99,17 @@ body {
 /* header */
 
 .header-img {
-  display: flexbox;
+  display: flex;
   margin: 0rem 1rem;
 }
 
 /* carousal  */
 
 #carouselExampleFade {
-  width: 100%;
-  height: 29em;
+  width: 120.8%;
+  margin: 0rem -7.2rem;
+  padding: 0rem;
+  height: 29rem;
   background-color: white;
   border-radius: 110px 110px 110px 110px;
   border: 4px solid rgb(255, 173, 22);
@@ -116,7 +118,7 @@ body {
   margin: 0rem 5rem;
 }
 .mar-set {
-  display: grid;
+  display: block;
   place-items: center;
 }
 /* carousel contant */
