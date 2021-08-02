@@ -228,7 +228,7 @@ body {
 } */
 .over-services {
   width: 90%;
-  height: 60vh;
+  height: 100vh;
   margin: auto;
   background-color: white;
   border-top: 4px solid rgb(255, 173, 22);
@@ -240,8 +240,14 @@ body {
   justify-content: space-evenly;
   text-align: center;
 }
+.service-part1 h2{
+  font-size: 2rem;
+}
+.service-part1 p{
+  font-size: 1rem;
+}
 .service1{
-  height: 40vh;
+  height: 20em;
   border: 2px solid yellow;
   box-shadow: inset 0 0 0 0 #ffc300;
   transition: ease-out 0.7s;
