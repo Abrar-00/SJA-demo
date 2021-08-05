@@ -256,11 +256,11 @@ body {
   height: 40vh;
   border: 4px solid gray;
   box-shadow: inset 0 0 0 5 #ffc300;
-  transition: ease-out 0.5s;
+  transition: ease-out 0.9s;
   border-radius: 15%;
 }
 .service1:hover {
-  box-shadow: inset 0px 165px 0px 165px #ffd60a;
+  box-shadow: inset 0px 200px 0px 200px #ffd60a;
   color: black;
 }
 .content1 {
